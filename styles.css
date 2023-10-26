@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .item {
+            flex: 0 0 calc(33.33% - 10px); /* Three items in a row with a 10px gap */
+            margin: 5px; /* Space between items */
+            background-color: #3498db; /* Item background color */
+            color: #fff; /* Text color */
+            text-align: center;
+            padding: 10px;
+        }
